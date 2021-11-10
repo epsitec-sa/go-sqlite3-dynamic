@@ -19,7 +19,7 @@ import (
 	"time"
 )
 
-func init() {
+func Init() {
 	registerLibrary()
 
 	sql.Register("sqlite3", &SQLiteDriver{})
